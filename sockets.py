@@ -59,7 +59,9 @@ class World:
     
     def world(self):
         return self.space
-    
+
+#Dr. Hindle's Sick socket code that he lent out
+#https://github.com/abramhindle/WebSocketsExamples    
     
 def send_all(msg):
     for client in clients:

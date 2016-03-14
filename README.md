@@ -25,7 +25,7 @@ freetests.py is LICENSE'D under a BSD-like license:
 
 From ws4py
 
-Copyright (c) 2011-2014, Sylvain Hellegouarch, Abram Hindle
+Copyright (c) 2011-2016, Sylvain Hellegouarch, Abram Hindle, Kieran Boyle
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -57,3 +57,32 @@ Contributors
 
 * Mark Galloway
 * Abram Hindle
+
+
+Resources Used
+==============
+Abram Hindle's lecture materials on Sockets  
+https://github.com/abramhindle/WebSocketsExamples
+
+(c) 2014 Abram Hindle
+
+Apache 2 Licensed (see LICENSE)
+
+
+http://www.w3schools.com/js/js_loop_for.asp
+
+author: w3schools
+
+http://i359.photobucket.com/albums/oo39/Familly_MattRs/newyork_zpsanjc8vau.jpg
+
+author: Familly_MattRs's Bucket
+
+Familly_MattRs's Bucket
+
+
+
+Consultants
+===========
+
+Brandon Smolley
+Kathleen Baker
