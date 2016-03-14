@@ -152,7 +152,8 @@ def get_entity(entity):
 def clear():
     '''Clear the world out!'''
     myWorld.clear()
-    return ("", 200, "")
+    #return ("", 200, "")
+    return Response(status = 200)
 
 
 
