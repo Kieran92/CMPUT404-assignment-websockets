@@ -59,6 +59,24 @@ class World:
     
     def world(self):
         return self.space
+    
+    
+def send_all(msg):
+    for client in clients:
+        client.put( msg )
+    
+def send_all_json(obj):
+    send_all( json.dumps(obj) )
+    
+class Client:
+    def __init__(self):
+        self.queue = queue.Queue()
+
+    def put(self, v):
+        self.queue.put_nowait(v)
+
+    def get(self):
+        return self.queue.get()
 
 #Dr. Hindle's Sick socket code that he lent out
 #https://github.com/abramhindle/WebSocketsExamples    
@@ -156,6 +174,7 @@ def clear():
     myWorld.clear()
     #return ("", 200, "")
     return Response(status = 200)
+
 
 
 
